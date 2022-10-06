@@ -1,0 +1,207 @@
+body {
+    background: rgb(241, 231, 219);
+}
+#meme-image-container {
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background-color:rgb(255, 255, 255);
+    margin-top: 20px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#meme-image {
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 400px;
+    height: 400px;   
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+#text-input {
+    text-align: left;
+    position: absolute;
+    top: 20px;
+    left: 100px; 
+}
+
+#meme-text {
+    position: absolute;
+    top: 100px;
+    left: 10px;
+    z-index: 1;
+    font-size: 30px;
+    text-shadow: rgb(0, 0, 0) 5px 5px 5px;
+    color: white;
+    width: 380px;
+    text-align: center;
+}
+
+#fire {
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    padding: 8px 50px;
+    font-weight: bold;
+    border-radius: 50px;
+    bottom: 50px;
+    left: 15px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    cursor: pointer;
+    background-image: url(./imgs/fire.png);
+}
+
+#earth {
+    background-color: rgb(0, 128, 0);
+    position: absolute;
+    padding: 8px 50px;
+    font-weight: bold;
+    border-radius: 50px;
+    bottom: 50px;
+    right: 15px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    cursor: pointer;
+
+}
+
+#water {
+    background-color: rgb(0, 0, 255);
+    position: absolute;
+    padding: 8px 50px;
+    font-weight: bold;
+    border-radius: 50px;
+    bottom: 10px;
+    right: 110px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    cursor: pointer;   
+
+}
+
+#meme-1, #meme-2, #meme-3, #meme-4 {
+    width: 100px;
+    height: 100px;
+    border: 2px groove rgb(0, 0, 0);
+    cursor: pointer;   
+}
+
+.lol-right {
+    width: 50px;
+    position: absolute; 
+    right: 5px;
+    top: 6px
+}
+
+.lol-left {
+    width: 50px;
+    position: relative; 
+    left: 5px;
+    top: 6px
+}
+
+h1 {
+    display: inline-block;  
+    position: relative; 
+    top: -15px;
+    left: 5px;
+}
+
+.header {
+    width: 350px;
+    height: 70px;
+    position: relative;
+    border: 2px groove rgb(0, 0, 0);
+    border-radius: 20px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.border-options {
+    width: 350px;
+    height: 150px;
+    margin-top: 20px;
+    position: relative;
+    border: 2px groove rgb(0, 0, 0);
+    border-radius: 20px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+}
+
+#border-text {
+    position: absolute;
+    left: 78px;
+
+}
+
+#choose-text {
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+    left: 20px;
+    top: -2px;
+}
+
+#choose-photo {
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    bottom: 0;   
+}
+
+#meme-insert {
+    display: inline-block;
+    position: absolute;
+    left: 100px;
+    bottom: 21px;      
+}
+
+.filesMenu {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 400px; 
+    height: 100px;
+    border: 2px groove rgb(0, 0, 0);
+    border-radius: 20px;   
+    position: relative; 
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.choose-meme {
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 450px; 
+    height: 200px;
+    border: 2px groove rgb(0, 0, 0);
+    border-radius: 20px;   
+    position: relative; 
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+}
+
+#meme-list-text {
+    position: absolute;
+    left: 140px;
+}
+
+.meme-list {
+    width: 600px;
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+}

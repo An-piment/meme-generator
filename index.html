@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="header">
+        <img src="./imgs/lol.png" alt="" class="lol-left">
+        <h1> Meme Generator</h1>
+        <img src="./imgs/lol2.png" alt="" class="lol-right">
+    </div>
+    <div class="filesMenu">
+        <p id="choose-text">Texto:</p>
+        <input type="text" id="text-input" maxlength="60">
+        <p id="choose-photo">Foto:</p> 
+         <input type="file" id="meme-insert" name="filename">
+    </div>
+    <div id="meme-image-container">
+        <img id = "meme-image" alt="">
+        <p id="meme-text"></p>
+    </div>
+    <div class="border-options">
+        <h2 id="border-text">Escolha sua borda</h2>
+        <button id="fire">Fire</button>
+        <button id="water">Water</button>
+        <button id="earth">Earth</button>
+    </div>
+    <div class="choose-meme">
+        <h2 id ='meme-list-text'>Escolha o Meme</h2>
+        <div class = 'meme-list'>
+            <img src="./imgs/meme1.png" alt="" id ="meme-1">
+            <img src="./imgs/meme2.png" alt="" id ="meme-2">
+            <img src="./imgs/meme3.png" alt="" id ="meme-3">
+            <img src="./imgs/meme4.png" alt="" id ="meme-4">
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
